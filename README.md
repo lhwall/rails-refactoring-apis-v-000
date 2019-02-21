@@ -2,6 +2,7 @@
 
 ## Instructions
 
+
 1. This lab begins where the [Rails Github API](https://github.com/learn-co-curriculum/rails-github-api/) lab leaves off. You're provided with a solution to that lab.
 
 2. Create a new model `GithubRepo` in `app/models/github_repo.rb`. Since you're not storing `GithubRepo` in a database, this class does _not_ need to inherit from Active Record. Create the file manually – using `rails g model` will automatically inherit from Active Record and create a migration. Build out the `GithubRepo` class to pass the model tests.
